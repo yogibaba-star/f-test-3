@@ -1,0 +1,682 @@
+.nav-menu-icon {
+  width: 30px;
+  height: 20px;
+  position: relative;
+}
+.brandicofacebook-icon {
+  height: 28px;
+  width: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.facebook-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 7px;
+}
+.akar-iconstwitter-fill {
+  width: 28px;
+  height: 28px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.social-icons {
+  align-items: flex-start;
+  gap: 24px;
+}
+.header,
+.main,
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.header {
+  align-items: flex-end;
+  gap: 635px;
+}
+.main {
+  align-items: flex-start;
+  padding: var(--padding-27xl) 0 0;
+}
+.background {
+  width: 1340px;
+  height: 900px;
+  position: relative;
+  border-radius: var(--br-mini) 0 0 var(--br-mini);
+  background: linear-gradient(-65.72deg, #c8dce6, #b6ccda);
+  display: none;
+  max-width: 100%;
+}
+.logo-icon {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  z-index: 1;
+}
+.logo-container {
+  width: 111px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ipad,
+.iphone,
+.mac {
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 39px;
+  z-index: 1;
+}
+.ipad,
+.iphone {
+  left: 129px;
+  min-width: 62px;
+}
+.ipad {
+  left: 281px;
+  min-width: 40px;
+}
+.slogan {
+  margin: 0;
+  align-self: stretch;
+  height: 27px;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.slogan-container {
+  margin: 0;
+  width: 321px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-5xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.support-container-child {
+  height: 36px;
+  width: 130px;
+  position: relative;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-white);
+  display: none;
+}
+.iwatch {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-lightsteelblue-100);
+  text-align: left;
+  display: inline-block;
+  min-width: 66px;
+  z-index: 2;
+}
+.support-container,
+.support-link {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.support-container {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-8xs) var(--padding-13xl) 4px;
+  background-color: var(--color-white);
+  border-radius: var(--br-81xl);
+  flex-direction: row;
+  z-index: 1;
+}
+.support-container:hover {
+  background-color: #e6e6e6;
+}
+.support-link {
+  flex-direction: column;
+  padding: 3px var(--padding-8xs) 0 0;
+}
+.support {
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 73px;
+  z-index: 1;
+}
+.search-link {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.search-input-child {
+  height: 42px;
+  width: 295px;
+  position: relative;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-gray);
+  display: none;
+}
+.search-placeholder {
+  width: 85px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 23px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2px 0 0;
+  box-sizing: border-box;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+}
+.search-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+  z-index: 2;
+}
+.search-input {
+  flex: 1;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-gray);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-4xs) var(--padding-smi) var(--padding-4xs) 21px;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.cart-icon1 {
+  width: 1px;
+  height: 22px;
+  position: relative;
+  z-index: 1;
+}
+.cart-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-4xs);
+}
+.search {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 7px;
+}
+.shopping-bag-icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.cart-button,
+.navigation-secondary-links,
+.search-and-cart {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cart-button {
+  flex-direction: column;
+  padding: var(--padding-4xs) 0 0;
+}
+.navigation-secondary-links,
+.search-and-cart {
+  flex-direction: row;
+  max-width: 100%;
+}
+.search-and-cart {
+  width: 346px;
+  gap: 19px;
+}
+.navigation-secondary-links {
+  gap: 53px;
+}
+.navigation-secondary {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 1px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.hero {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 58px;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.the-perfect-moment {
+  margin: 0;
+}
+.the-perfect-moment-container {
+  margin: 0;
+  height: 258px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 86px;
+  display: inline-block;
+  z-index: 1;
+  font-family: inherit;
+}
+.buy-now {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-snow);
+  text-align: left;
+  display: inline-block;
+  min-width: 104px;
+}
+.button-cat-child {
+  height: 70px;
+  width: 250px;
+  position: relative;
+  border-radius: var(--br-81xl);
+  border: 3px solid var(--color-white);
+  box-sizing: border-box;
+  display: none;
+}
+.button-cat,
+.product-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button-cat {
+  cursor: pointer;
+  border: 3px solid var(--color-white);
+  padding: var(--padding-smi) 72px var(--padding-smi) 74px;
+  background-color: transparent;
+  border-radius: var(--br-81xl);
+  flex-direction: row;
+  z-index: 1;
+}
+.product-info {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 82px;
+}
+.images-icon {
+  width: 18px;
+  height: 0;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.watch-images {
+  width: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) 0 0;
+  box-sizing: border-box;
+}
+.image-caption {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 5px;
+  z-index: 1;
+}
+.watch-images-child {
+  width: 18px;
+  height: 7.4px;
+  position: relative;
+  z-index: 1;
+}
+.watches {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  font-size: var(--font-size-sm);
+}
+.product,
+.product-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.product-content {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: 131px;
+}
+.product {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 25px;
+  box-sizing: border-box;
+  min-width: 442px;
+  max-width: 100%;
+}
+.color-swatch-icon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: -192px;
+  left: -57px;
+  object-fit: cover;
+  z-index: 2;
+}
+.color-indicator-icon {
+  width: 30px;
+  height: 162px;
+  position: relative;
+  z-index: 1;
+}
+.single-dot {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  filter: blur(41px);
+  border-radius: 50%;
+  background-color: var(--color-lightsteelblue-200);
+  z-index: 3;
+}
+.dot {
+  width: 373px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-13xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.watch-image {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslategray-100);
+  width: 131px;
+  height: 70px;
+}
+.placeholder-icon {
+  position: absolute;
+  top: 0;
+  left: 19px;
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  z-index: 1;
+}
+.watches-image {
+  height: 98px;
+  flex: 1;
+  position: relative;
+}
+.watch-2 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 98px;
+  z-index: 1;
+}
+.frame-child {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-turquoise);
+  width: 131px;
+  height: 70px;
+}
+.icon {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  z-index: 1;
+}
+.frame-item {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-mistyrose);
+  width: 131px;
+  height: 70px;
+}
+.icon1 {
+  position: absolute;
+  top: 0;
+  left: 19px;
+  width: 92px;
+  height: 90px;
+  object-fit: cover;
+  z-index: 1;
+}
+.watch-display {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 28px;
+}
+.dots,
+.dots-container {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.dots {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-25xl);
+}
+.dots-container {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xl) 0 0;
+  box-sizing: border-box;
+}
+.color-dots,
+.color-picker,
+.product-parent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.color-dots {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 135px;
+}
+.color-picker,
+.product-parent {
+  flex-direction: row;
+}
+.color-picker {
+  width: 479px;
+  align-items: flex-start;
+  position: relative;
+  min-width: 479px;
+}
+.product-parent {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: 52px;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.apple-watch-landing-page,
+.content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.content {
+  flex: 1;
+  border-radius: var(--br-mini) 0 0 var(--br-mini);
+  background: linear-gradient(-65.72deg, #c8dce6, #b6ccda);
+  flex-direction: column;
+  padding: var(--padding-27xl) 62px 42px;
+  gap: 175px;
+  max-width: calc(100% - 65px);
+}
+.apple-watch-landing-page {
+  width: 1440px;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  max-width: 100%;
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 0 0 35px;
+  gap: 35px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .slogan-container {
+    display: none;
+  }
+  .content {
+    gap: 87px;
+    padding-left: var(--padding-12xl);
+    padding-right: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .main {
+    padding-top: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .the-perfect-moment-container {
+    font-size: 51px;
+    line-height: 69px;
+  }
+  .color-picker {
+    flex: 1;
+  }
+  .product-parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .navigation-secondary-links {
+    gap: var(--gap-7xl);
+  }
+  .hero {
+    gap: 29px;
+  }
+  .product-info {
+    gap: 41px;
+  }
+  .product-content {
+    gap: 65px;
+  }
+  .product {
+    min-width: 100%;
+  }
+  .watch-display {
+    flex-wrap: wrap;
+  }
+  .color-dots {
+    gap: 67px;
+  }
+  .color-picker {
+    min-width: 100%;
+  }
+  .product-parent {
+    gap: var(--gap-7xl);
+  }
+  .content {
+    gap: var(--gap-25xl);
+    padding-top: var(--padding-11xl);
+    padding-bottom: 27px;
+    box-sizing: border-box;
+  }
+  .apple-watch-landing-page {
+    gap: 17px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .main {
+    padding-top: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .the-perfect-moment-container {
+    font-size: 38px;
+    line-height: 52px;
+  }
+  .buy-now {
+    font-size: 19px;
+  }
+  .button-cat {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .product-info {
+    gap: var(--gap-xl);
+  }
+  .product-content {
+    gap: 33px;
+  }
+  .content,
+  .dots {
+    gap: var(--gap-3xl);
+  }
+}
